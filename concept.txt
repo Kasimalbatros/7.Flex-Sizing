@@ -1,0 +1,12 @@
+.red{
+}
+.blue{
+flex-shrink:0;
+}
+.green{
+flex-shrink:0;
+}
+
+
+Note:- red box getting more smaller compared to blue and green 
+when we minimises the content according to inspect.

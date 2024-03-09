@@ -1,0 +1,26 @@
+.container{
+  display:flex;
+  flex-direction: row;  
+  justify-content: space-between;            /*row,column,column-reverse,row-reverse*/
+
+}
+.red{
+  background-color: red;
+  border:10px solid black;
+  padding:30px;
+  flex-basis:100px; 
+}
+.blue{
+  background-color: aqua;
+  border:10px solid black;
+  padding:30px;
+  flex-basis:100px; 
+  flex-shrink: 0;
+}
+.green{
+  background-color: greenyellow;
+  border:10px solid black;
+  padding:30px;
+  flex-basis:100px; 
+  flex-shrink: 0;
+}
